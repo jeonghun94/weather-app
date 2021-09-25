@@ -5,8 +5,8 @@ import { StyleSheet, Text, View } from 'react-native';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>React-Native Start</Text>
-      <StatusBar style="auto" />
+      <View style={styles.firstView} />
+      <View style={styles.secondView} />
     </View>
   );
 }
@@ -14,8 +14,13 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
   },
+  firstView:{
+    flex:1,
+    backgroundColor:"red"
+  },
+  secondView:{
+    flex:1,
+    backgroundColor:"blue"
+  }
 });
