@@ -54,7 +54,7 @@ export default function App() {
       <View style={{ alignItems: 'center', justifyContent: 'center' }}>
         <Text>title: {notification && notification.request.content.title} </Text>
         <Text>body: {notification && notification.request.content.body}</Text>
-        <Text>data: {notification && JSON.stringify(notification.request.content.data)}</Text>
+        <Text>data: {notification && JSON.stringify(notification.request.content.data.data)}</Text>
       </View>
       <Button
         title="알림 보내기"
