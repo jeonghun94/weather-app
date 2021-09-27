@@ -4,7 +4,7 @@ import { StyleSheet, Text, View } from 'react-native';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text style={styles.text}>Getting Fuckin Weather!</Text>
+      <Text style={styles.text}>Getting Fuckin Weathe!!</Text>
     </View>
   );
 }
@@ -13,7 +13,7 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     justifyContent:"flex-end",
-    backgroundColor:"black",
+    backgroundColor:"white",
     paddingHorizontal: 40,
     paddingVertical: 100
   },
