@@ -3,6 +3,7 @@ import { StyleSheet, Text, View, StatusBar } from 'react-native';
 import PropTypes from "prop-types";
 import { LinearGradient } from "expo-linear-gradient";
 import { MaterialCommunityIcons } from "@expo/vector-icons";
+import PushButton from "./PushButton";
 
 const weatherOptions = {
     Thunderstorm: {
@@ -86,6 +87,7 @@ export default function Weather({ temp, condition }) {
             <Text style={styles.subtitle}>
             {weatherOptions[condition].subtitle}
             </Text>
+            <PushButton />
         </View>
         </LinearGradient>
     );
