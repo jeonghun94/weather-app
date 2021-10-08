@@ -86,8 +86,8 @@ export default function Weather({ temp, condition }) {
             <Text style={styles.title}>{weatherOptions[condition].title}</Text>
             <Text style={styles.subtitle}>
             {weatherOptions[condition].subtitle}
-            </Text>
-            <PushButton />
+                </Text>
+            {/* <PushButton /> */}
         </View>
         </LinearGradient>
     );
